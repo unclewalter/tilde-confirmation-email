@@ -1,21 +1,3 @@
-/*
-  Take your existing Expression of Interest form and make sure you have
-  a field called “Email Address” and make sure it's mandatory.
-
-  Open the Google Spreadsheet that is storing the form responses, go to
-  the Tools -> Script Editor
-
-  Copy-paste the Google Script below into the script editor and save it.
-  The name is not important.
-
-  I have set up some variables for you to change (lines 42-45 and the
-  block starting at line 60).
-
-  While you are inside the Script Editor, go Run -> Initialize. Authorize
-  the script and it should send the confirmation emails for you. Let me
-  know when you've set it up and I can test it too.
-*/
-
 function Initialize() {
 
   var triggers = ScriptApp.getProjectTriggers();
@@ -38,7 +20,7 @@ function SendConfirmationMail(e) {
     var ss, cc, sendername, subject, columns;
     var message, value, textbody, sender;
 
-    // Vince, change these five variables as needed.
+    // Vince, change these variables as needed.
     cc = "youremail@example.com";
     sendername = "Tilde~ New Music and Sound Art";
     subject = "Expression of Interest Successfully Submitted";
