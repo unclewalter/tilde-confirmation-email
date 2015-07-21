@@ -50,7 +50,7 @@ function SendConfirmationMail(e) {
     */
     // message = "Hi there. <br /> We have received your expression of interest. <br /> Thank you!";
 
-    var message = [
+    message = [
 '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">',
 '<html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/xhtml">',
 '  <head>',
@@ -60,23 +60,23 @@ function SendConfirmationMail(e) {
 '  </head>',
 '  <body style="margin: 0; padding: 0;">&#13;',
 '   <table width="100%" border="0" cellpadding="0" cellspacing="0" style="background-image: url("http://www.tilde.net.au/wp-content/themes/travelify/images/background.png"); margin: 0; padding: 0;"><tr><td align="center">&#13;',
-'         <table width="100%" style="width: 100%; max-width: 957px; background-color: #fff; padding: 40px 30px;" bgcolor="#FFFFFF"><tr bgcolor="#FFFFFF"><td><a href="http://www.tilde.net.au/"><img src="http://www.tilde.net.au/wp-content/uploads/2015/01/header1018-012.jpg" alt="Tilde new music and sound art" style="display: block; width: 100%; max-width: 957px;" /></a></td>&#13;',
+'         <table width="100%" style="width: 100%; max-width: 900px; background-color: #fff; padding: 40px 30px;" bgcolor="#FFFFFF"><tr bgcolor="#FFFFFF"><td><a href="http://www.tilde.net.au/"><img src="http://www.tilde.net.au/wp-content/uploads/2015/01/header1018-012.jpg" alt="Tilde new music and sound art" style="display: block; width: 100%; max-width: 900px;" /></a></td>&#13;',
 '           </tr></table></td>&#13;',
 '     </tr><tr><td align="center">&#13;',
-'         <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 957px; background-color: #fff; text-align: left; padding: 40px 30px;" bgcolor="#FFFFFF"><tr><td align="center">&#13;',
+'         <table border="0" cellpadding="10" cellspacing="0" style="width: 100%; max-width: 900px; background-color: #fff; text-align: left;" bgcolor="#FFFFFF"><tr><td align="center">&#13;',
 '               <h1 style="font-family: monospace; font-size: 14pt; font-weight: bold; margin-bottom: 20px;">&#13;',
 '               Confirmation</h1>&#13;',
 '             </td>&#13;',
 '           </tr><tr><td>&#13;',
-'               <p style="font-family: monospace;">Hi there,</p>&#13;',
-'               <p style="font-family: monospace;">We have received your expression of&#13;',
+'               <p style="font-family: monospace; color: #000; margin-left: 40px;">Hi there,</p>&#13;',
+'               <p style="font-family: monospace; color: #000; margin-left: 40px;">We have received your expression of&#13;',
 '               interest.</p>&#13;',
-'               <p style="font-family: monospace;">Thank you,<br />&#13;',
+'               <p style="font-family: monospace; color: #000; margin-left: 40px;">Thank you,<br />&#13;',
 '               The Tilde team</p>&#13;',
 '             </td>&#13;',
 '           </tr></table></td>&#13;',
 '     </tr><tr><td align="center">&#13;',
-'         <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 957px; margin-bottom: 50px;"><tr bgcolor="#FFFFFF"><td><img src="http://www.tilde.net.au/wp-content/uploads/2013/11/Tilde-sonogram-e1406539567234.jpg" alt="" style="width: 100%; max-width: 957px;" /></td>&#13;',
+'         <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 900px;"><tr bgcolor="#FFFFFF" style="margin: 0; padding: 0;"><td><img src="http://www.tilde.net.au/wp-content/uploads/2013/11/Tilde-sonogram-e1406539567234.jpg" style="width: 100%; max-width: 900px;" /></td>&#13;',
 '           </tr></table></td>&#13;',
 '     </tr></table></body>',
 '</html>',
