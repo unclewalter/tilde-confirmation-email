@@ -11,7 +11,7 @@
   The name is not important.
 
 * I have set up some variables for you to change (lines 24-27 and the
-  block starting at line 50 right up to `join` method call).
+  block starting at line 53 right up to `join` method call).
 
 * While you are inside the Script Editor, go Run -> Initialize. Authorize
   the script and it should send the confirmation emails for you.

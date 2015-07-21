@@ -31,9 +31,12 @@ function SendConfirmationMail(e) {
       any HTML with tilde branding and what not if you like. I've
       attached a HTML file with a basic template borrowing from the
       Tilde website's current look. Modify it as you see fit. you
-      can use this tool to format the HTML file as a JavaScript
-      variable:
+      can use these tool to format the HTML file for email and then
+      as a JavaScript variable:
 
+      http://premailer.dialect.ca/
+
+      then: 
       http://htmltojavascript.com/
 
       Feel free to pester me if you need help. It's what I'm here
@@ -51,37 +54,31 @@ function SendConfirmationMail(e) {
 '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">',
 '<html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/xhtml">',
 '  <head>',
-'    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />',
+'    <meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />',
 '    <title>Tilde New Music and Sound Art</title>',
 '    <meta name="viewport" content="width=device-width, initial-scale=1.0" />',
 '  </head>',
 '  <body style="margin: 0; padding: 0;">&#13;',
-'    <table width="100%" height="100%" style="margin: 0; padding: 0;"><tr><td style="background-image: url("http://www.tilde.net.au/wp-content/themes/travelify/images/background.png");">&#13;',
-'          <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>&#13;',
-'               <table align="center" style="width: 100%; max-width: 957px; background-color: #fff; padding: 40px 30px;" bgcolor="#fff"><tr align="center" bgcolor="#FFFFFF"><td>&#13;',
-'                     <a href="http://www.tilde.net.au/" alt="Tilde new music and sound art">&#13;',
-'                       <img src="http://www.tilde.net.au/wp-content/uploads/2015/01/header1018-012.jpg" alt="Tilde new music and sound art" style="display: block; width: 100%;" /></a>&#13;',
-'                   </td>&#13;',
-'                 </tr></table></td>&#13;',
+'   <table width="100%" border="0" cellpadding="0" cellspacing="0" style="background-image: url("http://www.tilde.net.au/wp-content/themes/travelify/images/background.png"); margin: 0; padding: 0;"><tr><td align="center">&#13;',
+'         <table width="100%" style="width: 100%; max-width: 957px; background-color: #fff; padding: 40px 30px;" bgcolor="#FFFFFF"><tr bgcolor="#FFFFFF"><td><a href="http://www.tilde.net.au/"><img src="http://www.tilde.net.au/wp-content/uploads/2015/01/header1018-012.jpg" alt="Tilde new music and sound art" style="display: block; width: 100%; max-width: 957px;" /></a></td>&#13;',
+'           </tr></table></td>&#13;',
+'     </tr><tr><td align="center">&#13;',
+'         <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 957px; background-color: #fff; text-align: left; padding: 40px 30px;" bgcolor="#FFFFFF"><tr><td align="center">&#13;',
+'               <h1 style="font-family: monospace; font-size: 14pt; font-weight: bold; margin-bottom: 20px;">&#13;',
+'               Confirmation</h1>&#13;',
+'             </td>&#13;',
 '           </tr><tr><td>&#13;',
-'               <table align="center" width="100%" border="0" cellpadding="0" cellspacing="0" style="max-width: 957px; background-color: #fff; text-align: left; padding: 40px 30px;" bgcolor="#fff"><tr align="center"><td>&#13;',
-'                     <h1 style="font-family: monospace; font-size: 14pt; font-weight: bold; margin-bottom: 20px;">Confirmation</h1>&#13;',
-'                   </td>&#13;',
-'                 </tr><tr><td>&#13;',
-'                     <p style="font-family: monospace;">Hi there,</p>&#13;',
-'                     <p style="font-family: monospace;">&#13;',
-'                       We have received your expression of interest.&#13;',
-'                     </p>&#13;',
-'                     <p style="font-family: monospace;">&#13;',
-'                       Thank you, <br />&#13;',
-'                       The Tilde team&#13;',
-'                     </p>&#13;',
-'                   </td>&#13;',
-'                 </tr></table></td>&#13;',
-'           </tr><table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 957px;"><tr style="padding: 0 30px; border-top-style: solid; border-top-color: #DDD; border-top-width: 1px; width: 100%; max-width: 1018px; height: 163px; background-color: #fff;" bgcolor="#fff"><td>&#13;',
-'                 <img src="http://www.tilde.net.au/wp-content/uploads/2013/11/Tilde-sonogram-e1406539567234.jpg" alt="" /></td>&#13;',
-'             </tr></table></table></td>&#13;',
-'      </tr></table></body>',
+'               <p style="font-family: monospace;">Hi there,</p>&#13;',
+'               <p style="font-family: monospace;">We have received your expression of&#13;',
+'               interest.</p>&#13;',
+'               <p style="font-family: monospace;">Thank you,<br />&#13;',
+'               The Tilde team</p>&#13;',
+'             </td>&#13;',
+'           </tr></table></td>&#13;',
+'     </tr><tr><td align="center">&#13;',
+'         <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 957px; margin-bottom: 50px;"><tr bgcolor="#FFFFFF"><td><img src="http://www.tilde.net.au/wp-content/uploads/2013/11/Tilde-sonogram-e1406539567234.jpg" alt="" style="width: 100%; max-width: 957px;" /></td>&#13;',
+'           </tr></table></td>&#13;',
+'     </tr></table></body>',
 '</html>',
 ''
 ].join('');
